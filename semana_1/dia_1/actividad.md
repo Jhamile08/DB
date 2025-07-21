@@ -4,14 +4,6 @@
 
 Identificar qué tipo de información necesita una empresa para operar, y cómo podría organizarse en una base de datos relacional (SQL) y documental (NoSQL).
 
----
-
-## Instrucciones generales
-
-- Formar equipos de **3 personas**.
-- Cada equipo trabajará con una **temática diferente** (veterinarias, carnicerías, librerías, gimnasios, cafeterías, etc.).
-- El docente asignará la temática a cada grupo.
-- El equipo debe completar todos los pasos y preparar una presentación breve de sus conclusiones.
 
 ---
 
@@ -35,14 +27,14 @@ Describan en 1 o 2 líneas qué hace su empresa.
 ### Tablas:
 
 - **Clientes**
-  - ID (clave primaria)
+  - ID
   - Nombre
   - Teléfono
 
 - **Pedidos**
   - ID
   - Fecha
-  - ClienteID (clave foránea)
+  - ClienteID
 
 - **Productos**
   - ID
@@ -79,7 +71,7 @@ Responda brevemente:
 
 - ¿Qué ventaja tiene guardar los datos en tablas?
 - ¿Qué ventaja tiene tener todo junto en un documento?
-- ¿Qué sistema sería mejor para su negocio y por qué?
+- ¿Qué sistema sería mejor para su restaurante y por qué?
 
 ## Entregables
 Cada equipo debe entregar:
