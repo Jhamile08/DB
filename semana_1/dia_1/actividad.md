@@ -20,8 +20,6 @@ Describan en 1 o 2 líneas qué hace su empresa.
 
 1. Identifiquen **3 tablas** que su empresa necesitaría para funcionar.
 2. Definan **mínimo 3 columnas por tabla**.
-3. Indiquen si existen relaciones entre las tablas y de qué tipo (uno a uno, uno a muchos, muchos a muchos).
-
 **Ejemplo:**
 
 ### Tablas:
@@ -41,9 +39,6 @@ Describan en 1 o 2 líneas qué hace su empresa.
   - Nombre
   - Precio
 
-### Relación:
-- Un cliente puede tener muchos pedidos (relación uno a muchos).
-- Un pedido puede incluir muchos productos (relación muchos a muchos, usando una tabla intermedia si es necesario).
 
 ---
 
