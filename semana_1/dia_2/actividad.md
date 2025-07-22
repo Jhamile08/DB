@@ -73,3 +73,32 @@ Se evaluará:
 - Coherencia entre el DER y el modelo relacional.
 - Uso correcto de claves primarias y foráneas.
 - Presentación limpia y ordenada.
+
+
+ejemplo de sql:
+
+-- Tabla de libros
+CREATE TABLE libros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    autor VARCHAR(100),
+    anio_publicacion INT
+);
+
+-- Tabla de usuarios
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) UNIQUE
+);
+
+-- Tabla de préstamos (relaciona usuarios con libros)
+CREATE TABLE prestamos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha_prestamo DATE NOT NULL,
+    fecha_devolucion DATE,
+    libro_id INT,
+    usuario_id INT,
+    FOREIGN KEY (libro_id) REFERENCES libros(id),
+    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+);
