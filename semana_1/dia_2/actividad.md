@@ -42,6 +42,10 @@ Esto les permitirá visualizar cómo se conecta cada parte del sistema, y prepar
   - Indicación de la **clave primaria**.
   - Indicación de **claves foráneas**, si existen.
 
+
+### Paso 3: Crear la base de datos y tablas en mysql
+
+- Vamos crear nuestra base de datos y nuestras tablas a traves de la terminal
 **Formato sugerido:**
 
 ```sql
