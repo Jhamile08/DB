@@ -80,7 +80,7 @@ Se evaluará:
 
 
 ejemplo de sql:
-` ` ` sql
+` ` `  sql
 -- Tabla de libros
 CREATE TABLE libros (
     id INT AUTO_INCREMENT PRIMARY KEY,
