@@ -80,7 +80,7 @@ Se evaluará:
 
 
 ejemplo de sql:
-
+` ` ` sql
 -- Tabla de libros
 CREATE TABLE libros (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -106,3 +106,4 @@ CREATE TABLE prestamos (
     FOREIGN KEY (libro_id) REFERENCES libros(id),
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
+` ` ` 
